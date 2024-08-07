@@ -28,8 +28,8 @@ function translateTextLocally(text) {
 }
 
 async function queryCalories() {
-    const apiKey = 'c42ff93034634256342de0997a7618ff'; // Chave de API
-    const appId = 'dd0f0841'; // ID de Aplicativo
+    const apiKey = 'YOUR_API_KEY'; // Chave de API
+    const appId = 'YOUR_API_ID'; // ID de Aplicativo
     let foodName = document.getElementById('name-food').value;
     const gramsSpan = document.getElementById('grams-span');
 
