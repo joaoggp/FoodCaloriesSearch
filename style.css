@@ -1,0 +1,129 @@
+* {
+    font-family: Poppins;
+}
+
+body {
+    text-align: center;
+}
+
+.inserction-itens {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 13.125rem;
+}
+
+.input-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px auto;
+}
+
+input::placeholder {
+    opacity: .5;
+}
+
+#label-input {
+    display: block;
+    margin-top: 0.9rem;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#calories-kcal,
+#name-food {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+#btn-container {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#btn-add-food {
+    font-weight: 500;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    background: #4b4b4b;
+    transition: transform .2s ease-in-out, background .5s ease-in-out, color .5s;
+}
+
+#btn-add-food:hover {
+    transform: scale(1.05);
+    background: #8a8a8a;
+    color: #000000;
+}
+
+#query-food-calories-btn {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#query-calories {
+    font-weight: 500;
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    background: #4b4b4b;
+    transition: transform .2s ease-in-out, background .5s ease-in-out, color .5s;
+}
+
+#query-calories:hover {
+    transform: scale(1.05);
+    background: #8a8a8a;
+    color: #000000;
+}
+
+#grams-span{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.food-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #363636; /* Cor da borda */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.food-table th, .food-table td {
+    border: 1px solid #363636; /* Cor da borda das células */
+    padding: 18px;
+    
+}
+
+.food-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#removebtn {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: red;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform .5s, text-shadow 1.2s ease-in-out;
+}
+
+#removebtn:hover{
+    transform: scale(1.2);
+    text-shadow: 0px 2px 8px rgb(214, 42, 42);
+}

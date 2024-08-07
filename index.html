@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h2>CARDÁPIO NUTRICIONISTA</h2>
+    <div class="inserction-itens">
+        <div class="input-btns">
+            <label id="label-input" for="name-food">Nome da Comida(Em Inglês):</label>
+            <input type="text" id="name-food">
+            <div id="query-food-calories-btn">
+                <button id="query-calories" type="button">CONSULTAR CALORIAS</button>
+            </div>
+            <label id="label-input" for="calories-kcal">KCAL por Gramas:</label>
+            <input type="text" id="calories-kcal" placeholder="Ex: 236">
+            <div id="btn-container">
+                <button id="btn-add-food" type="button">ADICIONAR COMIDA</button>
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <span id="grams-span"></span>
+    </div>
+    <table class="food-table">
+        <thead>
+            <tr>
+                <th>NOME DO ALIMENTO</th>
+                <th>CALORIAS</th>
+                <th>GRAMAS DO ALIMENTO</th>
+                <th>REMOVER</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+
+</html>
