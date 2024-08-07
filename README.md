@@ -2,10 +2,15 @@
 Aplicação web para traduzir nomes de alimentos do português para o inglês usando um arquivo JSON e consultar calorias via API do Nutritionix. Os alimentos são exibidos em uma tabela estilizada com cantos arredondados, permitindo adicionar e remover itens facilmente.
 
 🌟 Funcionalidades
+
 🗣️ Tradução automática de nomes de alimentos usando um arquivo JSON.
+
 🔍 Consulta de calorias e informações nutricionais via API do Nutritionix.
+
 🖱️ Interface intuitiva para adicionar e remover alimentos de uma tabela.
+
 📋 Como Usar
+
 🖥️ Clone este repositório.
 🌐 Abra o arquivo index.html em um navegador.
 ✍️ Insira o nome de um alimento em português e clique em "Consultar Calorias" para obter informações nutricionais.
